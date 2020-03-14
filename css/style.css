@@ -55,7 +55,7 @@ body::-webkit-scrollbar-thumb {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   overflow: hidden;
   transition: 0.2s;
 }
@@ -130,7 +130,7 @@ body::-webkit-scrollbar-thumb {
 /* -------------------------------------------------------------------------- */
 /* PARALLAX SECTION---------------------------------------------------------- */
 .parallax-window {
-  min-height: 100vh;
+  height: 100vh;
   background: transparent;
   /* overflow-x: hidden; */
   color: #fff;
