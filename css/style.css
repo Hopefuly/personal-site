@@ -290,8 +290,8 @@ header * {
     scroll-snap-type: block proximity;
   } */
   .parallax-window {
-    min-height: 97vh;
-    margin-bottom: 5vh;
+    min-height: 100vh;
+    /* margin-bottom: 5vh; */
   }
 
   /* section {
