@@ -133,7 +133,6 @@ body::-webkit-scrollbar-thumb {
   height: 100vh;
   background: transparent;
   /* overflow-x: hidden; */
-  overflow: hidden;
   color: #fff;
 }
 
