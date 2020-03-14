@@ -1,0 +1,96 @@
+html {
+
+}
+
+body {
+  text-align: center;
+  background-color: #011F3F;
+  box-sizing: border-box;
+  margin: 0;
+  /* height: 100%; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  overflow: hidden;
+  /* height: 2000px; */
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 0;
+  padding: 5%;
+  color: #FEF2BF;
+}
+
+.fluid-container {
+  padding: 3% 10%;
+}
+
+.clueBox {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* transition: 0.2s; */
+}
+
+.clue {
+  box-sizing: border-box;
+  background-color: #FEF2BF;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: #f5587b;
+  color: #7b88ff;
+  width: 15vw;
+  font-size: 1rem;
+}
+
+.container {
+  display: block;
+  width: 70vw;
+  height: 50%;
+  margin: auto;
+}
+
+.row {
+  /* min-height: 20vh; */
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  /* height: 200px; */
+  min-height: 10vw;
+  /* width: 200px; */
+  min-width: 15%;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
