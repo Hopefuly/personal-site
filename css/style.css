@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 0;
 }
-p{
+
+p {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -26,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container-fluid {
-  padding: 3vh 15vw;
+  padding: 3vh 20vw;
 }
 
 .smallPadding {
@@ -301,7 +302,7 @@ header * {
     bottom: 0;
     width: 100vw;
     height: 5vh;
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
 
   .navbarx:hover {
@@ -344,14 +345,19 @@ header * {
   max-width: 100%;
 }
 
-@media query {}
-
 /* -------------------------------------------------------------------------- */
 /* EXPERIENCE SECTION-------------------------------------------------------- */
 #experience {
   background-color: #89DDF1;
   color: #0245a3;
   text-align: left;
+}
+
+#experience .spcHr {
+  width: 20%;
+  border: dotted #ffe578 10px;
+  border-bottom: none;
+  margin: 50px auto;
 }
 
 /* #experience .row *{
@@ -465,6 +471,7 @@ header * {
   #project .row .cardStructure {
     margin: 20px 0;
   }
+
   #project .row .cardStructure .cards.cardBody .content a:hover {
     background: #333;
     color: #fff;
@@ -474,18 +481,20 @@ header * {
     background: #ff0057;
     transform: translateY(0);
   }
+
   #project .row .cardStructure .cards.cardHeader .content {
     opacity: 1;
   }
+
   #project .row .cardStructure .cards.cardBody {
     transform: translateY(0);
   }
+
   #project .row .cardStructure .cards.cardBody .content a {
     background: #333;
     color: #fff;
   }
 }
-
 
 /* -------------------------------------------------------------------------- */
 /* INTEREST SECTION---------------------------------------------------------- */
