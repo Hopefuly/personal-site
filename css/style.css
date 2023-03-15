@@ -1,7 +1,7 @@
 /* UNIVERSAL----------------------------------------------------------------- */
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: block mandatory;
+  /* scroll-snap-type: block mandatory; */
 }
 
 body {
